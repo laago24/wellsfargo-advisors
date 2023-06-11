@@ -1,0 +1,556 @@
+
+
+.infoMain {
+	display: block;
+	background-color: #fff;
+	padding: 2em 1em;
+}
+
+.infoMain div {
+	display: inline-block;
+}
+
+.infoMain .text {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.infoMain.alt {
+	background-color: #f0f0ef;
+}
+
+.gold {
+	color: #8B6937;
+}
+
+.closing {
+	text-align: center;
+	padding: 0 0 8vh 0;
+}
+
+.buttonPrimary {
+	min-width: 200px;
+	text-align: center;
+}
+
+
+.ssepLand_block hr {
+	margin: 0;
+}
+
+.ssepLand_block .brokerageOverviewImg{
+  width:90%;
+  margin:0 auto;
+}
+
+.ssepLand--fltImg_subBlock {
+	border-bottom: 1px solid #979797;
+	margin-bottom: 1.5em;
+}
+
+.ssepLand_subBlock {
+	margin-bottom: 1.5em;
+}
+
+.noBorder {
+	border: 0 !important;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.ssepLand--noFix {
+	padding: 0 1em 8vh 1em;
+}
+
+.ssepLand_block h2 {
+	font-size: 1.8em;
+}
+
+.ssepLand--header_block {
+	text-align: center;
+	padding-bottom: 8vh;
+}
+
+.ssepLand--horiz_button {
+	margin: 0 1em;
+}
+
+.ssepLand--flex1 {
+	order: 1;
+}
+
+.ssepLand--flex2 {
+	order: 2;
+	width: 50%;
+}
+
+.ssepLand--noBar {
+	border-bottom: 0;
+}
+
+.ssepLand_arrow {
+	max-width: 28px !important;
+	margin: 1.5em auto;
+}
+
+.ssepLand--fltImg_subBlock div:nth-child(1) {
+	margin-bottom: 1em;
+}
+
+img.fltRight {
+	width: auto;
+}
+
+
+.navigationDots {
+	padding: 2em 2em 0em 2em;
+	position: absolute;
+	bottom: -0.5em;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.panelIndicator {
+	position: absolute;
+	right: 1000px;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+}
+
+.ssepLand_textBlock.ssepLand--flex2.portfolio {
+	padding: 2em 1em;
+}
+
+.modal {
+  	display: none;
+    position: fixed;
+    z-index: 100;
+    overflow: auto;
+    width: 64em;
+    max-width: 80%;
+    height: 80%;
+    max-height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-open {
+	overflow:hidden;
+}
+
+.modal-open-ios {
+	overflow: hidden;
+	height: 100%;
+	position: relative;
+}
+
+.expandIcon {
+	position:absolute;
+	width:2em;
+	bottom:5px;
+	right:5px;
+	opacity: 0.75;
+}
+
+
+.modalButton {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: transform .3s;
+	position:relative;
+	padding:0;
+	border: 1px solid #999999;
+}
+
+.modalButton:hover {
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	border: 1px solid #3387a3;
+	cursor: pointer;
+}
+
+.modal-overlay {
+   display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+}
+
+.ssepLand_block.secondBlock.slideShowParentContainer {
+	position: relative;
+	margin: 0;
+}
+
+.prev, .next {
+	width:55px;
+	position:absolute;
+	transition: transform .3s;
+}
+
+.prev {
+	left:0px;
+}
+.prev:hover {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.next {
+	right: 0px;
+}
+
+.next:hover {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.bottom-icons {
+	width: auto;
+  margin: auto;
+  padding-bottom: 1.5em;
+}
+
+.dot {
+	cursor: pointer;
+  background: #dadada;
+  border: 0.05em solid #00698c;
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.75em;
+	margin: 0.2em;
+  overflow: hidden;
+  padding: 0.3em;
+  text-align: left;
+  text-indent: -9999px;
+  vertical-align: -0.5em;
+  white-space: nowrap;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #00698c;
+}
+
+.ssepLand_block.ssepLand--header_block {
+  background-color: white;
+  border-bottom: none;
+  overflow: hidden;
+  margin: 0;
+	padding-bottom: 2em;
+}
+
+.ssepLand_block.secondBlock.slideShowContainer {
+ 	clear: both;
+  background: #ffffff;
+  padding: 1em;
+}
+
+.ssepLand_textBlock_center {
+	max-width: 40em;
+  margin: auto;
+  text-align: center;
+	padding: 2em 0 1em 0;
+}
+
+.ssepLand_block.three {
+	padding:1em;
+}
+
+.bottom-arrow {
+	margin: auto;
+	border-top: 30px solid #ffffff;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  bottom: 0px;
+  content: &quot;&quot;;
+  position: relative;
+  left: 48.3%;
+  margin-left: -21px;
+  width: 0;
+  height:0;
+}
+
+.ssepLand_block.three.bottomPage {
+	text-align:center;
+	padding:2em;
+}
+
+.ssepLand--flex1 {
+  width: 50%;
+  padding: 2em;
+}
+
+.ssepLand--flex2.market {
+	padding-left: 1.5em;
+}
+
+.ssepLand_block.three {
+	background:#ffffff;
+}
+
+
+.ssepLand_block.secondBlock.slideShowContainer {
+	margin: 1em 5em 4em 5em;
+}
+
+.ssepLand_headText {
+	max-width:40em;
+	text-align:center;
+	padding:1em 0 1em 0;
+	margin: 1em auto;
+}
+
+.ssepLand--header_block h1 {
+	padding-top:1em;
+}
+
+h4.goldHeading {
+	letter-spacing: 0.15rem;
+    font-size: 0.9rem;
+}
+
+span.ssepBold {
+	font-weight:600;
+}
+
+.ulHomePage {
+	float:left;
+	width:50%;
+}
+.ulHomePage2 {
+	float:right;
+	width:50%;
+}
+
+.ssepListOne {
+	float: left;
+	width: 50%;
+	display: block;
+	text-align: left;
+}
+
+.ssepListTwo {
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+
+.ssepUl {
+	margin:1em 4em 1em 4em;
+}
+
+.ssepUl li {
+	padding-bottom: 1em;
+}
+
+.ulHomePage li {
+	padding-bottom:1em;
+}
+
+@media screen and (max-width: 48em) {
+	.pageMain {
+		padding: 0.5em;
+	}
+	.meganav__mobile {
+		border-bottom: 1px solid #bb0826;
+	}
+	.ssepListOne {
+		float: left;
+		width: 100%;
+		display: block;
+		text-align: left;
+	}
+
+	.ssepListTwo {
+		float: left;
+		width: 100%;
+		text-align: left;
+	}
+
+	.ssepLand--flex1.portfolio-image {
+		padding:1em 0 0 0;
+	}
+
+	.ssepUl {
+		margin: 0;
+	}
+	ol, ul {
+		margin: 0;
+	}
+	.ssepLand_block {
+		display: block;
+	}
+
+	a.prev, a.next {
+		margin: 1em 1em 0.25em 1em;
+		top:auto;
+	}
+
+	.ssepLand_block.ssepLand--header_block {
+		padding: 1em;
+	}
+	.prev, .next {
+		bottom: -70px;
+	}
+	.ssepLand--flex2.market, .ssepLand--flex1.portfolio-image {
+		display:grid;
+	}
+	.ssepLand--flex1 {
+		padding: 2em;
+	}
+	.ssepLand--flex1.slideshow {
+		text-align:center;
+	}
+	.ssepLand_textBlock.ssepLand--flex2.slideshow, .ssepLand_textBlock.ssepLand--flex2.portfolio {
+		padding: 1em;
+	}
+	.ssepLand--flex2.market, .ssepLand_block.three {
+		padding: 1em 1em 3em 1em;
+		}
+	.ssepLand_block.secondBlock.slideShowContainer {
+		margin: 1em 1em 6em 1em;
+	}
+	.ssepLand--flex1,
+	.ssepLand--flex2,
+	.ssepLand--flex2.market,
+	.ssepLand_textBlock.ssepLand--flex2{
+		width:100%;
+	}
+	.navigationDots {
+	padding: 2em 2em 0em 2em;
+	position: absolute;
+	bottom: -6em;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-width: 47.9em) {
+.ssepLand_textBlock.ssepLand--flex2.bottom {
+	border-top: 1px solid #999999;
+}
+}
+
+@media screen and (min-width: 48em) {
+	.infoMain {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: flex;
+	}
+	.ssepLand_block,
+	.ssepLand_subBlock,
+	.ssepLand--fltImg_subBlock {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: flex;
+		padding: 0;
+	}
+	.ssepLand_subBlock div:nth-child(1) {
+		width: 30%;
+	}
+	.ssepLand_subBlock div:nth-child(2) {
+		width: 65%;
+		margin-bottom: 2em;
+	}
+	.ssepLand--fltImg_subBlock div:nth-child(1) {
+		width: 30%;
+		padding: 0 0 1em 0;
+		margin-bottom: 0;
+	}
+	img.fltRight {
+		margin: 0 1.5em 0 auto;
+	}
+	.ssepLand--fltImg_subBlock div:nth-child(2) {
+		width: 65%;
+		margin-top: 1em;
+	}
+	.ssepLand--stack_block {
+		display: block;
+	}
+	.ssepLand--header_block {
+		display: block;
+	}
+
+	.ssepLand_block.secondBlock {
+		margin:4em 2em 4em 2em;
+		width: 100%;
+	}
+
+	.ssepLand_textBlock.ssepLand--flex2.bottom {
+		border-left:1px solid #999999;
+	}
+
+	.ssepLand_textBlock.ssepLand--flex2.slideshow {
+		padding: 2em;
+	}
+	.prev, .next {
+		top: 155px;
+	}
+}
+
+@media screen and (min-width: 56em) {
+	.ssepLand_textBlock.ssepLand--flex2.portfolio {
+		padding: 5em 3em 3em 2em;
+	}
+	.ssepLand_textBlock.ssepLand--flex2.slideshow {
+		padding: 4em 2em;
+	}
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+	@media screen and (max-width: 48em) {
+  .prev, .next {
+		width:70px !important;
+	}
+}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .modalButton {
+     display: block;
+     margin: auto;
+   }
+
+     img.brokerageOverviewImg {
+       margin: auto;
+       display: block;
+       max-width: 64em;
+     }
+
+}
+
+@media screen and (-ms-high-contrast: active) {
+    .bottom-arrow {
+			display:none;
+		}
+		.active, .dot:hover {
+			padding: 0.5em;
+		}
+}
+
+@media screen and (max-width: 768px){
+  .ssepLand_block .brokerageOverviewImg{
+    width:100%;
+  }
+}

@@ -1,0 +1,107 @@
+body {
+  overflow: hidden;
+}
+main.page__main {
+  background-color: white;
+  padding: 0;
+}
+.hero.noImage {
+  padding: 3em 2em;
+}
+.hero.noImage figure {
+  display: none;
+}
+.columns__section,
+.tour_comp {
+  max-width: 1080px;
+}
+.tour_comp {
+  margin: 0 auto;
+}
+.disclaimer {
+  background: #e7ded3;
+}
+.disclaimer > div {
+  width: 90%;
+  max-width: 1080px;
+  font-size: 0.8em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0;
+}
+.emojiTabs {
+  text-align: center;
+  margin-top: 1em;
+}
+.emojiTabs .relativeContainer {
+  max-width: 48em;
+  margin: 2em auto;
+}
+.testOfTime {
+  padding-bottom: 2em;
+}
+.onTheFence {
+  padding: 2em 0;
+}
+.descriptor__headline--soundAdvice {
+  text-align: center;
+}
+@media screen and (min-width: 37.5em) {
+  .panelContainer__button--tab {
+    width: 33.33%;
+    height: auto;
+    background: none;
+    border: none;
+    text-decoration: underline;
+  }
+  .panelContainer__button--tab::before {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin: 0 auto 0.5em;
+  }
+  .panelContainer__button--tab.selected::before {
+    transform: unset;
+  }
+  .panelContainer__button--tab.selected {
+    text-decoration: none;
+  }
+  .panelContainer__button--tab:nth-of-type(1)::before {
+    content: url("../images2/emojis/im_good.svg");
+  }
+  .panelContainer__button--tab:nth-of-type(2)::before {
+    content: url("../images2/emojis/avoiding_it.svg");
+  }
+  .panelContainer__button--tab:nth-of-type(3)::before {
+    content: url("../images2/emojis/worried.svg");
+  }
+  .panelContainer__button--tab:nth-of-type(2) {
+    left: 33.3%;
+  }
+  .panelContainer__button--tab:nth-of-type(3) {
+    left: 66.6%;
+  }
+  .panelContainer__panel--tab.selected {
+    top: 6.5em;
+    border: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .page,
+  .page__header,
+  .page__content,
+  .page__main {
+    max-width: 1920px !important;
+    margin: 0 auto;
+  }
+  .mslider__container--panel[aria-hidden="false"] {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .msliderchat {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
